@@ -63,3 +63,15 @@ button:hover{
     align-items: center;
     gap: 15px;
 }
+
+@media (min-width:700px) {
+    #contenido{
+        max-width: 240px;
+        margin: 0;
+        padding: 20px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,5 +1,20 @@
-img{
+#img {
     width: 300px;
+    height: 200px;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../assets/imagen.jpeg); /* imagen por defecto */
+}
+
+@media (min-width: 700px) {
+    #img {
+        width: 240px;
+        height: auto;
+        border-top-right-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: url(../../../assets/image-d.jpg) !important;
+    }
 }
